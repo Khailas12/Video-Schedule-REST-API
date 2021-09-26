@@ -1,6 +1,7 @@
 from flask import Flask
 from flask_restful import Api, Resource, reqparse, abort
 
+
 # reqparse ->  Flask-RESTful's request parsing interface,It's designed to provide simple and uniform access to any variable on the flask.
 
 
@@ -19,6 +20,7 @@ videos = {
         'title': 'Superman and Alfred Meeting'
     }
 }
+
 
 class Video(Resource):
     
